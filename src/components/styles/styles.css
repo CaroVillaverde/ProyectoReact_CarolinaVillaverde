@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+header{
+width: 100%;
+height:70px;
+background-color: orangered;
+}
+/*containerbrand*/
+header .containerBrand{
+    height:100%;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+}
+/*containerList*/
+header .containerList{
+    height:100%;
+    width: 60%;
+    border: 1px solid black;
+}
+/*containerItemList*/
+header .containerListItem{
+    height:100%;
+    width: 20%;
+    border: 1px solid black;
+}
+/*containerCart*/
+header .containerCart{
+    height:100%;
+    width: 20%;
+    border: 1px solid black;
+}
