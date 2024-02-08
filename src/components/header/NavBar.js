@@ -1,8 +1,9 @@
-import Brand from "./Brand";
-import ItemListContainer from "./ItemsListContainer";
+
+import ItemListContainer from "./itemListContainer";
 import CartWidget from "./CartWidget";
 import ContainerCart from "./ContainerCart";
 import ContextCart from "./ContextCart";
+import Brand from "./Brand";
 
 const NavBar = () => {
 
@@ -15,10 +16,10 @@ const NavBar = () => {
 
                 <nav className="containerItemList">
                     <ItemListContainer 
-                        itemUno = "Procesadores"
-                        itemDos = "Motherboards"
-                        itemTres = "Fuentes"
-                        itemCuatro = "Placas de video"
+                        itemUno = "Juguetes"
+                        itemDos = "Correas"
+                        itemTres = "Pretales"
+                        itemCuatro = "Comederos"
                     />
                 </nav>
 

@@ -10,7 +10,7 @@ body{
 header{
 width: 100%;
 height:70px;
-background-color: orangered;
+background-color: rgb(197, 155, 201);
 }
 /*containerbrand*/
 header .containerBrand{
@@ -18,6 +18,27 @@ header .containerBrand{
     width: 20%;
     border: 1px solid black;
     display: flex;
+    justify-content: center;
+    max-width: 200px ;
+}
+header .containerListItem { 
+    border: 1px solid black;
+    width: 60%;
+    height: 100%;
+}
+header .containerListItem ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+header .containerListItem ul li{
+    margin: 10px;
+    border: 1px solid black;
+}
+header .containerBrand img{
+    transform: scale (0.55);
 }
 /*containerList*/
 header .containerList{
@@ -37,3 +58,18 @@ header .containerCart{
     width: 20%;
     border: 1px solid black;
 }
+
+footer {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background: rgb(197, 155, 201);
+    height: 200px;
+    padding: 20px 50px;
+    flex-direction: column;
+  }
